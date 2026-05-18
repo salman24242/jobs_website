@@ -1,17 +1,3 @@
-# Elite Job Careers — SECURITY TEST FIXTURE ONLY
-
-**⚠️ THIS IS A SECURITY TEST FIXTURE ONLY. DO NOT DEPLOY PUBLICLY. ⚠️**
-
-This static website is a controlled test corpus for **ContextSeal**, a prompt-injection detection
-system. It contains intentionally crafted **indirect** prompt-injection payloads embedded across
-realistic-looking job-board content. The purpose is to evaluate ContextSeal's ability to detect,
-classify, and surface adversarial instructions an LLM agent might encounter while browsing,
-summarizing, or extracting data from web pages.
-
-> An earlier revision also included **direct** (source-only) injections — HTML comments, hidden
-> divs, `<meta>` tags, JSON-LD, low-contrast text. Those were removed because the agents being
-> evaluated consume rendered page text rather than raw HTML, putting source-only payloads out of
-> scope for this fixture.
 
 ## Brand (fictitious)
 
