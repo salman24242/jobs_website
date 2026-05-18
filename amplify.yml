@@ -1,0 +1,14 @@
+# AWS Amplify Hosting — static HTML (no build step)
+# https://docs.aws.amazon.com/amplify/latest/userguide/deploy-website.html
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - echo "Static fixture — publishing files as-is"
+  artifacts:
+    baseDirectory: /
+    files:
+      - "**/*"
+  cache:
+    paths: []
